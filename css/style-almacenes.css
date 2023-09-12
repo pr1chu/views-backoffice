@@ -1,0 +1,62 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0 20px; /* Ajusta el valor de 20px según tu preferencia */
+}table th{
+    text-align: start;
+}
+
+.detalles{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    margin-top: 10px;
+
+}.detalles .ordenes-recientes{
+    position: relative;
+    display: grid;
+    min-height: 500px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.8);
+     border-radius: 20px;
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}.cardHeader h2{
+    font-weight: 600;
+     color: var(--blue);
+}
+
+.btn{
+    position: relative;
+    padding: 5px 10px;
+    background: var(--blue);
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.detalles table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+.detalles .ordenes-recientes table tr{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.detalles .ordenes-recientes table tr:last-child{
+    border-bottom: none;
+}
+.detalles .ordenes-recientes table tbody tr:hover{
+    background: var(--blue);
+    color: var(--mint);
+}
+

@@ -243,7 +243,32 @@ nav ul li.hovered a::after {
 }
 
 
+/*Diseño responsive*/
 
+@media (max-width: 991px){
+    nav
+    {
+        left: -300px;
+    }
+    nav.activo{
+        width: 300px;
+    left: 0;
+    }
+    .main{
+        width: 100%;
+        left: 0;
+    }
+
+    .main.activo{
+        left: 300px;
+    }
+
+    .cardBox{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+  
 
 
 

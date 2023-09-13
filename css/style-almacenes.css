@@ -60,3 +60,12 @@ table {
     color: var(--mint);
 }
 
+
+/*Diseño responsive*/
+
+@media(max-width:768px){
+
+    .detalles{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

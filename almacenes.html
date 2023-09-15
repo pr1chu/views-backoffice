@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-almacenes.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>BackOffice</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <nav>
+            <ul>
+                <li>
+                    <a href="principal.html">
+                        <span class="icono">
+                            <ion-icon name="bus-outline"></ion-icon>
+                        </span>
+                        <span class="titulo">QuickCarry</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="principal.html">
+                        <span class="icono">
+                            <ion-icon name="layers-outline"></ion-icon>
+                        </span>
+                        <span class="titulo">Panel Principal</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icono">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="titulo">Usuarios</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="almacenes.html">
+                        <span class="icono">
+                            <ion-icon name="file-tray-stacked-outline"></ion-icon>
+                        </span>
+                        <span class="titulo">Almacenes</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icono">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="titulo">Configuración</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icono">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="titulo">Cerrar Sesión</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="main">
+        <div class="topbar">
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+
+            </div>
+            <div class="buscar">
+                <label>
+                    <input type="text" placeholder="Buscar aquí">
+                    <ion-icon name="search-outline"></ion-icon>
+                </label>
+            </div>
+
+            <div class="usuario">
+                <img src="img\user.png" alt="usuario">
+            </div>
+        </div>
+
+        <div class="detalles">
+            <div class="ordenes-recientes">
+                <div class="cardHeader">
+                    <h2>Órdenes Recientes</h2>
+                    <a href="#" class="btn">Ver Todo</a>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Producto</td>
+                            <td>Lote</td>
+                            <td>Precio</td>
+                            <td>Estado</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#0555</td>
+                            <td>F19G2</td>
+                            <td>$790</td>
+                            <td> <span class="estado-en-despacho">Despachado</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#0222</td>
+                            <td>F18G2</td>
+                            <td>$1,300</td>
+                            <td> <span class="estado-entregado">Entregado</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#0111</td>
+                            <td>H24G2</td>
+                            <td>$942</td>
+                            <td> <span class="estado-pendiente">Pendiente</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#444</td>
+                            <td>Q65R9</td>
+                            <td>$84</td>
+                            <td> <span class="estado-entregado">Entregado</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#0888</td>
+                            <td>N71D4</td>
+                            <td>$190</td>
+                            <td> <span class="estado-en-curso">En curso</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#0333</td>
+                            <td>F88Z6</td>
+                            <td>$560</td>
+                            <td> <span class="estado-en-curso">En curso</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#0777</td>
+                            <td>F42YP</td>
+                            <td>$320</td>
+                            <td> <span class="estado-en-despacho">Despachado</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#0999</td>
+                            <td>F79O1</td>
+                            <td>$205</td>
+                            <td> <span class="estado-pendientes">Pendiente</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>

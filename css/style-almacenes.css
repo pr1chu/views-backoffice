@@ -1,6 +1,11 @@
 table {
     border-collapse: separate;
     border-spacing: 0 20px; /* Ajusta el valor de 20px según tu preferencia */
+<<<<<<< HEAD
+=======
+}table th{
+    text-align: start;
+>>>>>>> 8cd0a4700ac9dacba5b624fb1a65893dc47ec207
 }
 
 .detalles{
@@ -30,4 +35,44 @@ table {
 }.cardHeader h2{
     font-weight: 600;
      color: var(--blue);
+<<<<<<< HEAD
 }
+=======
+}
+
+.btn{
+    position: relative;
+    padding: 5px 10px;
+    background: var(--blue);
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.detalles table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+.detalles .ordenes-recientes table tr{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.detalles .ordenes-recientes table tr:last-child{
+    border-bottom: none;
+}
+.detalles .ordenes-recientes table tbody tr:hover{
+    background: var(--blue);
+    color: var(--mint);
+}
+
+
+/*Diseño responsive*/
+
+@media(max-width:768px){
+
+    .detalles{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+>>>>>>> 8cd0a4700ac9dacba5b624fb1a65893dc47ec207

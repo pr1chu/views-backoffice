@@ -1,3 +1,13 @@
+:root {
+    --dark: #274029;
+    --green: #85A653;
+    --blue: #2c497f;
+    --white: #ffff;
+    --celad: #b9f5d8;
+    --grey: #868784;
+
+}
+
 table {
     border-collapse: separate;
     border-spacing: 0 20px; /* Ajusta el valor de 20px según tu preferencia */
@@ -59,8 +69,7 @@ table {
     border-bottom: none;
 }
 .detalles .ordenes-recientes table tbody tr:hover{
-    background: var(--blue);
-    color: var(--mint);
+    background: var(--green);
 }
 
 
